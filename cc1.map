@@ -1,0 +1,24 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+temp_preset                                                       0x021B       4
+err                                                               0x021F       4
+temperatura                                                       0x0223       4
+buf1                                                              0x0227       6
+buf2                                                              0x022D       6
+buf3                                                              0x0233       6
+_seed                                                             0x0239       4
+_base_y                                                           0x023D       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+i                                                                 R2,R3        2
+mod_set                                                           R4,R5        2
+_lcd_x                                                            R7           1
+_lcd_y                                                            R6           1
+_lcd_maxx                                                         R9           1
